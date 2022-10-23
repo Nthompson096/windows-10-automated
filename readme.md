@@ -1,7 +1,7 @@
 # TL:DR
 ### automated windows 11/10 install
 
-**_Note I'm currently having issues with UEFI inside KVM hypervisors, so this may not work under KVM or a VM. may have to do with settings on disk not set on modify; may also try out virtualbox instead_**
+**_Note UEFI appaers to not work with virtualiztion so you'd have to set things up manually._**
 
 before we can do that install the ADK and only have windows deployment tools checked during the install then proceed with the ADK install also be sure that you've downloaded the windows 10/11 iso, either extract the ISO with the usb creation tool kid (will require some ESD wrangling) or just get the ISO
 
