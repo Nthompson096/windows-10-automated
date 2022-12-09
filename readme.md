@@ -3,6 +3,18 @@
 
 **_Note UEFI appaers to not work with virtualiztion so you'd have to set things up manually._**
 
+However there is a work around to convert BIOS into uefi
+
+enter your windows environment; hold down ```shift``` and got to start and reset your machine; select troubleshoot and enter commandline
+it will ask you for a password if you had set one, enter it or hit enter if not.
+
+## converting BIOS to UEFI
+mbr2gpt /validate
+mbr2gpt /validate /allowFullOS
+mbr2gpt /convert
+
+[More info on what to do if you have any errors](https://web.archive.org/web/20221015050220/https://www.maketecheasier.com/convert-legacy-bios-uefi-windows10/)
+
 before we can do that install the ADK and only have windows deployment tools checked during the install then proceed with the ADK install also be sure that you've downloaded the windows 10/11 iso, either extract the ISO with the usb creation tool kid (will require some ESD wrangling) or just get the ISO
 
 ## Generating an answer file:
