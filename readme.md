@@ -9,9 +9,13 @@ enter your windows environment; hold down ```shift``` and got to start and reset
 it will ask you for a password if you had set one, enter it or hit enter if not.
 
 ## converting BIOS to UEFI
-mbr2gpt /validate
-mbr2gpt /validate /allowFullOS
-mbr2gpt /convert
+These are the commands you need to enter in the command prompt when in troubleshooting mode (command line)
+
+    mbr2gpt /validate
+    
+    mbr2gpt /validate /allowFullOS
+    
+    mbr2gpt /convert
 
 [More info on what to do if you have any errors](https://web.archive.org/web/20221015050220/https://www.maketecheasier.com/convert-legacy-bios-uefi-windows10/)
 
