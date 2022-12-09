@@ -15,6 +15,8 @@ mbr2gpt /convert
 
 [More info on what to do if you have any errors](https://web.archive.org/web/20221015050220/https://www.maketecheasier.com/convert-legacy-bios-uefi-windows10/)
 
+## Installing ADK
+
 before we can do that install the ADK and only have windows deployment tools checked during the install then proceed with the ADK install also be sure that you've downloaded the windows 10/11 iso, either extract the ISO with the usb creation tool kid (will require some ESD wrangling) or just get the ISO
 
 ## Generating an answer file:
