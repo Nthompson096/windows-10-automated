@@ -1,13 +1,3 @@
-<!--*************************************************
-Windows 10 Answer File Generator
-Created using Windows AFG found at:
-;http://www.windowsafg.com
-
-Installation Notes
-Location: U.S.
-Notes: Enter your comments here...
-**************************************************-->
-
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
 <settings pass="windowsPE">
